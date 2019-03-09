@@ -1,9 +1,9 @@
 <div>
   <label>Enter Decimal Number: </label>
-  <input #box (keyup)="onKey(box.value)" />
+  <input #decbox (keyup)="onKey(decbox.value)" />
 </div>
 <br />
 <div>
   <label>Roman Equivalent: </label>
-  <input type="text" readonly value="{{ teraRoman }}" />
+  <input type="text" size="50" readonly value="{{ teraRoman }}" />
 </div>
